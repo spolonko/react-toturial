@@ -1,6 +1,6 @@
 import React from "react";
 import icon1 from "../images/icon1.png";
-import profileimage from "../images/eatingfruit.jpg"
+import profileimage from "../images/my-image.jpg"
 const Profile = () =>{
     return (
     <>
@@ -8,6 +8,9 @@ const Profile = () =>{
          <div className="container">
             <div className="profile">
                <img src={profileimage} alt="" id="profile_img" />
+               <div className="imagehover">
+                  
+               </div>
             </div>
             <div className="arrows">
                <img src={icon1} alt="" className="arrow" />
